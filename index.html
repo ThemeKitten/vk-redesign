@@ -1,0 +1,94 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <title>Конкурсная работа на дизайн Вконтакте</title>
+      <!-- Bootstrap core CSS -->
+      <link href="css/bootstrap.css" rel="stylesheet">
+      <!-- Add custom CSS here -->
+      <link href="css/vk.css" rel="stylesheet">
+   </head>
+   <body>
+      <div class="header-main">
+         <div class="container">
+            <p class="lead">
+               <img src="images/logo-big2.png" alt="Responsive across devices" class="img-responsive"  title="Профиль" style="width: 100px; height: 100px; display: inline-block;">
+            </p>
+         </div>
+      </div>
+      <div class="container">
+         <p class="lead">Конкурсная работа на редизайн социальной сети "Вконтакте"</p>
+         <hr class="">
+         <div class="row">
+            <div class="col-sm-12">
+               <a href="profile.html" class="mac-book">
+               <img src="images/mac-profile.png" alt="" class="img-responsive"  title="Профиль">
+               </a>
+               <div class="message-box middle">
+                  <a href="profile.html" class="btn btn-primary btn-big">Профиль</a>
+               </div>
+               <hr class="half-rule">
+            </div>
+            <div class="col-sm-12">
+               <a href="feed.html" class="mac-book">
+               <img src="images/mac-feed.png" alt="" class="img-responsive"  title="Лента"></a>
+               <div class="message-box middle">
+                  <a href="feed.html" class="btn btn-primary btn-big">Лента</a>
+               </div>
+               <hr class="half-rule">
+            </div>
+            <div class="col-sm-12">
+               <a href="messages.html" class="mac-book">
+               <img src="images/mac-messages.png" alt="" class="img-responsive" title="Сообщения">
+               </a>
+               <div class="message-box middle">
+                  <a href="messages.html" class="btn btn-primary btn-big">Сообщения</a>
+               </div>
+            </div>
+         </div>
+         <hr class="">
+         <div class="lead" style="margin-top: 40px;"
+            >
+            <!-- Put this script tag to the <head> of your page -->
+            <script type="text/javascript" src="//vk.com/js/api/openapi.js?115"></script>
+            <script type="text/javascript">
+               VK.init({apiId: 4477848, onlyWidgets: true});
+            </script>
+            <!-- Put this div tag to the place, where the Like block will be -->
+            <div id="vk_like"></div>
+            <!-- <p class="lead" style="margin-top: 40px;"><img src="images/heart.png" width="100px;"></p> -->
+            <p class="lead" style="margin-top: 30px;">Спасибо за просмотр!</p>
+            <script type="text/javascript">
+               VK.Widgets.Like("vk_like", {type: "button", height: 24});
+            </script>
+         </div>
+      </div>
+
+   <header class="navbar navbar-static-top bs-docs-nav" id="top" role="banner">
+  <div>
+    <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+      <ul class="nav navbar-nav">
+        <li>
+          <p href="#" style="padding: 15px 15px;color: #5D80A6;line-height:20px;margin: 0;">http://goo.gl/Ho339i - короткая ссылка</p>
+        </li>
+        <li>
+          <a href="http://www.behance.net/anatoly-ho">Презентация на Behance</a>
+        </li>
+        <li>
+          <a href="https://github.com/anatoly-ho">Скачать</a>
+        </li>
+        <li>
+          <a href="https://vk.com/page-44384363_47735885">Описание конкурса</a>
+        </li>
+        <li>
+          <a href="http://angelsmedia.org/#newsletter">Обратная связь</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+   </body>
+</html>

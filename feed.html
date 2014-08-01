@@ -1,0 +1,435 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <title>Конкурсная работа на дизайн Вконтакте</title>
+      <!-- Bootstrap core CSS -->
+      <link href="css/bootstrap.css" rel="stylesheet">
+      <!-- Add custom CSS here -->
+      <link href="css/vk.css" rel="stylesheet">
+      <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+   </head>
+   <body>
+      <nav class="navbar navbar-inverse" role="navigation">
+         <div class="container">
+            <div class="navbar-header">
+               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+               <span class="sr-only">Навигация</span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               </button>
+               <a class="navbar-brand" href="feed.html"><img src="images/logo.png"></a>
+            </div>
+            <form class="navbar-form navbar-left">
+               <input type="text" class="form-control col-lg-8" placeholder="Найти" value="Найти">
+            </form>
+            <!--             <ul class="nav navbar-nav">
+               <li><a href="#"><span class="badge back-icon">&nbsp;</span> К списку диалогов</a></li>
+               </ul> -->
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+               <ul class="nav navbar-nav navbar-right">
+                  <li><a href="#">Люди</a>
+                  </li>
+                  <li><a href="#">Сообщества</a>
+                  </li>
+                  <li><a href="#">Игры</a>
+                  </li>
+                  <li><a href="#">Музыка <span class="badge music-icon">&nbsp;</span></a>
+                  </li>
+                  <li><a href="#">Помощь</a>
+                  </li>
+                  <li><a href="#">Выйти</a>
+                  </li>
+                  <!--                     <li><a href="#">Выйти</a>
+                     </li> -->
+               </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+         </div>
+         <!-- /.container -->
+      </nav>
+      <div class="container">
+         <div class="row">
+            <div class="col-md-2 navigation">
+               <div class="list-group">
+                  <a href="profile.html" class="list-group-item">Моя Страница</a>
+                  <a href="#" class="list-group-item">Мои Друзья</a>
+                  <a href="#" class="list-group-item">Мои Фотографии</a>
+                  <a href="#" class="list-group-item">Мои Видеозаписи</a>
+                  <a href="#" class="list-group-item">Мои Аудиозаписи</a>
+                  <a href="messages.html" class="list-group-item">Мои Сообщения <span class="badge">+3</span></a>
+                  <a href="#" class="list-group-item">Мои Группы</a>
+                  <a href="#" class="list-group-item">Мои Ответы</a>
+                  <a href="#" class="list-group-item">Мои Закладки</a>
+                  <a href="#" class="list-group-item">Мои Настройки</a>
+               </div>
+               <div class="divider-normal"></div>
+               <div class="list-group" style="margin-bottom: 10px;">
+                  <a href="#" class="list-group-item">Приложения</a>
+                  <a href="#" class="list-group-item">Документы</a>
+               </div>
+               <div class="event">
+                  <div class="calendar"></div>
+                  <div class="head">Напоминание</div>
+                  <div class="text"><a href="#">Сегодня</a> состоится встреча <a href="#">Английский для лентяев</a></div>
+               </div>
+               <div class="divider-small"></div>
+               <a href="index.html" class="banner">
+                  <strong>Редизайн Вконтакте</strong>
+                  Страница на vk.com
+                  <img src="images/banner-2.jpg">
+                  <div class="info">Конкурс для дизайнеров с ценными призами</div>
+               </a>
+               <div class="divider-small"></div>
+               <a href="https://catalog.livestreetcms.com/addon/view/439/" class="banner">
+               <strong>ATLASS - шаблон социальной сети</strong>
+               продукт
+               <img src="images/banner-4.jpg">
+               </a>
+               <div class="divider-small"></div>
+               <div class="banner">
+                  Все объявления
+               </div>
+            </div>
+            <div class="col-md-10 main news-feed">
+               <div class="row">
+                  <div class="col-md-8 content news-feed">
+                     <div class="tabs">
+                        <ul class="nav nav-tabs">
+                           <li class="active"><a href="#home" data-toggle="tab">Новости</a></li>
+                           <li><a href="#" data-toggle="tab">Обновления</a></li>
+                           <li><a href="#" data-toggle="tab">Комментарии</a></li>
+                           <li class="pull-right new-post"><a href="#" data-toggle="tab">Новая запись</a></li>
+                        </ul>
+                     </div>
+                     <div class="pills">
+                        <ul class="nav nav-pills">
+                           <li class="active"><a href="#">Лента</a></li>
+                           <li><a href="#">Фотографии</a></li>
+                           <li><a href="#">Рекомендации</a></li>
+                           <li><a href="#">Друзья</a></li>
+                           <li><a href="#">Сообщества</a></li>
+                           <li><a href="#">Статьи</a></li>
+                        </ul>
+                     </div>
+                     <div class="tab-actions">
+                        <a href="#"><strong>Показаны все новости</strong></a> |
+                        <a href="#">Показать наиболее интересные</a>
+                        <!--  <a href="#" class="pull-right">Список источников</a> -->
+                     </div>
+                     <div class="show-more">Показать <strong>10</strong> новых записей</div>
+                     <div class="feed">
+                        <div class="feed-left">
+                           <div class="avatar">
+                              <img src="images/avatar-6.jpg" alt="">
+                           </div>
+                        </div>
+                        <div class="feed-right">
+                           <div class="username"><a href="#">Валерия Лукьянова</a> обновила фотографию на странице:</div>
+                           <div class="text">
+                              <div class="image"><img src="images/avatar-lera.jpg" alt=""></div>
+                           </div>
+                           <div class="feed-info">
+                              <div class="pull-left">
+                                 <div class="date">час назад</div>
+                                 | <a href="#">Комментировать</a>
+                              </div>
+                              <div class="pull-right">
+                                 <a class="share">Поделиться <strong>5</strong></a>
+                                 <a class="like">Мне нравится <strong>670</strong></a>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="divider"></div>
+                     </div>
+                     <div class="feed">
+                        <div class="feed-left">
+                           <div class="avatar">
+                              <img src="images/avatar-vk.jpg" alt="">
+                           </div>
+                        </div>
+                        <div class="feed-right">
+                           <div class="username"><a href="#">Команда ВКонтакте</a></div>
+                           <div class="text">
+                              Похоже, наш художник <a href="#">подарков</a> никогда не спит и постоянно держит руку на пульсе!
+                              <div class="image"><img src="images/post-4.jpg" alt=""></div>
+                           </div>
+                           <div class="feed-info">
+                              <div class="pull-left">
+                                 <div class="date">14 июл в 1:20</div>
+                                 | <a href="#">Ответить</a>
+                              </div>
+                              <div class="pull-right">
+                                 <a class="share">Поделиться <strong>657</strong></a>
+                                 <a class="like">Мне нравится <strong>7460</strong></a>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="divider"></div>
+                     </div>
+                     <div class="feed">
+                        <div class="feed-left">
+                           <div class="avatar">
+                              <img src="images/avatar-news.jpg" alt="">
+                           </div>
+                        </div>
+                        <div class="feed-right">
+                           <div class="username"><a href="#">Известия</a></div>
+                           <div class="text">
+                              Журналист Максим Кононенко – о том, что известно, а что непонятно в истории со сбитым малазийским лайнером
+                              <br>
+                              <br>
+                              Подробнее: <a href="#">http://izvestia.ru/news/574041</a>
+                              <div class="image"><img src="images/post-5.jpg"></div>
+                           </div>
+                           <div class="feed-info">
+                              <div class="pull-left">
+                                 <div class="date">14 июл в 1:20</div>
+                                 | <a href="#">Ответить</a>
+                              </div>
+                              <div class="pull-right">
+                                 <a class="like">Мне нравится <strong style="background-position: 1px 4px;opacity: 0.5;">&nbsp;</strong></a>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="divider"></div>
+                     </div>
+                     <div class="feed">
+                        <div class="feed-left">
+                           <div class="avatar">
+                              <img src="images/avatar-flat.jpg" alt="">
+                           </div>
+                        </div>
+                        <div class="feed-right">
+                           <div class="username"><a href="#">Flat Design</a></div>
+                           <div class="text">
+                              Какой дизайн, такой и юмор.
+                           </div>
+                           <div class="feed-info">
+                              <div class="pull-left">
+                                 <div class="date">3 апр в 11:58</div>
+                              </div>
+                              <div class="pull-right">
+                                 <a class="share">Поделиться <strong>2</strong></a>
+                                 <a class="like">Мне нравится <strong>16</strong></a>
+                              </div>
+                           </div>
+                           <div class="show-more comments">Показать все 6 комментариев</div>
+                        </div>
+                        <div class="comment">
+                           <div class="feed">
+                              <div class="feed-left">
+                                 <div class="avatar">
+                                    <img src="images/avatar-comment-1.jpg" alt="">
+                                 </div>
+                              </div>
+                              <div class="feed-right">
+                                 <div class="username"><a href="#">Александр Кузьмин</a></div>
+                                 <div class="text">
+                                    Плоско.
+                                 </div>
+                                 <div class="feed-info">
+                                    <div class="pull-left">
+                                       <div class="date">10 июл в 22:27</div>
+                                       | <a href="#">Ответить</a>
+                                    </div>
+                                    <div class="pull-right">
+                                       <a class="like"><strong>1</strong></a>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="divider"></div>
+                           </div>
+                        </div>
+                        <div class="comment">
+                           <div class="feed">
+                              <div class="feed-left">
+                                 <div class="avatar">
+                                    <img src="images/avatar-comment-2.jpg" alt="">
+                                 </div>
+                              </div>
+                              <div class="feed-right">
+                                 <div class="username"><a href="#">Василий Родионов</a></div>
+                                 <div class="text">
+                                    Валентин, да, это про меня.
+                                 </div>
+                                 <div class="feed-info">
+                                    <div class="pull-left">
+                                       <div class="date">11 июл в 2:25 Валентину</div>
+                                       | <a href="#">Ответить</a>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="new-comment">
+                           <div class="form-group">
+                              <input type="text" class="form-control" id="inputDefault" placeholder="Комментировать..." value="Комментировать...">
+                           </div>
+                        </div>
+                        <div class="divider"></div>
+                     </div>
+                     <div class="feed">
+                        <div class="feed-left">
+                           <div class="avatar">
+                              <img src="images/avatar-durov.jpg" alt="">
+                           </div>
+                        </div>
+                        <div class="feed-right">
+                           <div class="username"><a href="#">Павел Дуров</a></div>
+                           <div class="text">
+                              Что касается алкоголя, то он разрушает человека не только физически и интеллектуально, но и духовно.
+                              <br>
+                              <div class="retwit">
+                                 <div class="header">
+                                    <div class="avatar">
+                                       <img src="images/avatar-anatoly.jpg">
+                                    </div>
+                                    <div class="username"><a href="#">Анатолий Давыдчик</a></div>
+                                    <div class="time"><a href="#">7 июл 2013 в 19:22</a></div>
+                                 </div>
+                                 <div class="text">
+                                    В 2011 году, когда началось мое общение с Павлом, он дал мне целый список советов, который я перечитываю каждые несколько месяцев. 
+                                    <br><br>
+                                    С его разрешения решил опубликовать это.
+                                    <br><br>
+                                    — Из всех языков, на которое было потрачено время, окупилось только то, которое было инвестировано в английский. Стоит фокусироваться на нем.
+                                 </div>
+                                 <div class="more"><a href="#">Показать полностью..</a></div>
+                                 <div class="image"><img src="images/post-image-durov.jpg"></div>
+                              </div>
+                           </div>
+                           <div class="feed-info">
+                              <div class="pull-left">
+                                 <div class="date">3 апр в 11:58</div>
+                                 | <a href="#">Ответить</a>
+                              </div>
+                              <div class="pull-right">
+                                 <a class="share">Поделиться <strong>9441</strong></a>
+                                 <a class="like">Мне нравится <strong>69904</strong></a>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="divider"></div>
+                     </div>
+                     <div class="feed">
+                        <div class="feed-left">
+                           <div class="avatar">
+                              <img src="images/avatar-my.jpg" alt="">
+                           </div>
+                        </div>
+                        <div class="feed-right">
+                           <div class="username"><a href="#">Анатолий Ходосевич</a></div>
+                           <div class="text">
+                              Для удобства чтения ленты при прокрутке фон немного темнеет.<br>
+                              <!--  <a href="images/post-5.png" target="blank">2. Альтернативное меню навигации справа (иконки нужно нарисовать другие).</a> -->
+                           </div>
+                           <div class="feed-info">
+                              <div class="pull-left">
+                                 <div class="date">14 июл в 1:20</div>
+                                 | <a href="#">Комментировать</a>
+                              </div>
+                              <div class="pull-right">
+                                 <!-- <a class="share">Поделиться <strong>2</strong></a> -->
+                                 <a class="like">Мне нравится <strong>89</strong></a>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="divider"></div>
+                     </div>
+                     <div class="feed">
+                        <div class="feed-left">
+                           <div class="avatar">
+                              <img src="images/avatar-dog.jpg" alt="">
+                           </div>
+                        </div>
+                        <div class="feed-right">
+                           <div class="username"><a href="#">Собачка Вконтакте</a></div>
+                           <div class="text">
+                              <div class="image"><img src="images/post-1.jpg" alt=""></div>
+                           </div>
+                           <div class="feed-info">
+                              <div class="pull-left">
+                                 <div class="date">3 апр в 11:58</div>
+                                 | <a href="#">Ответить</a>
+                              </div>
+                              <div class="pull-right">
+                                 <a class="share">Поделиться <strong>3</strong></a>
+                                 <a class="like">Мне нравится <strong>678</strong></a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-md-4 sidebar news-feed">
+                     <div class="news-bar">
+                        <ul class="nav nav-pills nav-stacked settings" >
+                           <li><a href="#">Разделы новостей</a></li>
+                           <li><a href="#">Список источников</a></li>
+                        </ul>
+                        <div class="divider-normal"></div>
+                        <ul class="nav nav-pills nav-stacked settings" style="margin-bottom: -8px;">
+                           <li><a href="#">Поиск записей</a></li>
+                           <li><a href="#">Закладки</a></li>
+                        </ul>
+                        <!--                         <ul class="nav nav-pills nav-stacked news-filter" title="Иконки нужно нарисовать">
+                           <li class="active"><a href="#" class="fee"><span class="icon-star"></span> Лента</a></li>
+                           <li><a href="#" class="pho"><span class="icon-layers"></span> Фотографии</a></li>
+                           <li><a href="#" class="sea"><span class="icon-bulb"></span> Поиск</a></li>
+                           <li><a href="#" class="rec"><span class="icon-graduation"></span> Рекомендации</a></li>
+                           <li><a href="#" class="frs"><span class="icon-users"></span> Друзья</a></li>
+                           <li><a href="#" class="com"><span class="icon-puzzle"></span> Сообщества</a></li>
+                           <li><a href="#" class="art"><span class="icon-map"></span> Статьи</a></li>
+                           <li><a href="#" class="lik"><span class="icon-like"></span> Понравилось</a></li>
+                           </ul> -->
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="player"></div>
+   </body>
+   <script type="text/javascript">
+      // Фиксация главного меню
+      $(function(){
+          $(window).scroll(function(){
+              if ($(window).scrollTop()>800) {
+                  $('.content.news-feed')
+                         .css({
+                          'box-shadow': '0px 0px 0px #F3F3F3',
+                          'border-color': '#E7EAED',
+                          'border-color': '#dee4ec'
+                      });
+                  $('body')
+                         .css({
+                          'background': '#FBFBFB',
+                          'background': '#F5F6F9'
+                      });
+                  $('.main')
+                         .css({
+                          'border-color': '#E7EAED',
+                          'border-color': '#dee4ec'
+                      });
+      
+              } else {
+                  $('.content.news-feed')
+                      .attr('style', '');
+                  $('body')
+                      .attr('style', '');
+                  $('.main')
+                      .attr('style', '');
+              }
+      
+          });
+      });
+   </script>
+   <style type="text/css">
+      body { margin: 0; }
+   </style>
+</html>
